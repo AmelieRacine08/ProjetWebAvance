@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.active{
+    background-color: var(--bgColor);
+    border-radius: 20px;
+    color: var(--textColor);
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}

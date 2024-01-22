@@ -1,0 +1,12 @@
+.container{
+    padding: 1rem;
+    background-color: var(--textColor);
+    color: var(--bgColor);
+    display: flex;
+    
+}
+
+.logo{
+    font-size: 2rem;
+    
+}

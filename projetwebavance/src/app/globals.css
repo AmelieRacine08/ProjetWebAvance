@@ -1,0 +1,11 @@
+
+:root {
+  --bgColor:white;
+  --textColor:black;
+  --autre:grey; 
+}
+
+body {
+  color:var(--textColor);
+  background-color: var(--bgColor);
+}
