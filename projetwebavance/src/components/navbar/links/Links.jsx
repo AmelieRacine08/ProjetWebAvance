@@ -31,15 +31,13 @@ const Links = () => {
   
     return (
     <div className={Style.container}>
-        {
-            tab.map((item, index) => (
-            
-            <Link 
-            className={pathname === item.path ? `${Style.active}`:''}
-            key={index} href={item.path}>{item.title}</Link>
-                
-            ))
-        }
+       {
+        tab.map((item, index) => (
+        <Link 
+        className={ pathname === item.path ? `${Style.active}` : ''}
+        key={index} href={item.path}>{item.title}</Link>
+        ))
+      }
     </div>
   )
 }

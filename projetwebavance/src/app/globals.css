@@ -1,6 +1,8 @@
+@tailwind base;
+@tailwind utilities;
 
 :root {
-  --bgColor:white;
+  --bgColor:	#F8F8FF;
   --textColor:black;
   --autre:grey; 
 }
@@ -8,4 +10,11 @@
 body {
   color:var(--textColor);
   background-color: var(--bgColor);
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
 }

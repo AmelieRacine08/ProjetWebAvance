@@ -1,12 +1,13 @@
 .container{
-    padding: 1rem;
-    background-color: var(--textColor);
-    color: var(--bgColor);
+    padding: 2rem;
+    background-color:#BC8F8F;
+    color: black;
     display: flex;
-    
+    align-items: center; 
+    text-decoration: none;
 }
 
 .logo{
-    font-size: 2rem;
-    
+    font-size: 2rem;  
 }
+
