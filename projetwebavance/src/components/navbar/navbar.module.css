@@ -4,9 +4,9 @@
     color: var(--bgColor);
     display: flex;
     
+    
 }
 
 .logo{
-    font-size: 2rem;
-    
+    font-size: 2rem;    
 }

@@ -1,13 +1,13 @@
 'use client'
-import React from 'react'
+import React, { useState } from 'react'
 import Style from './links.module.css'
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
 const tab = [
     {
-        title:'Home',
-        path:'/'
+        title: "Page d'acceuil",
+        path: '/'
     },
     {
         title: 'Evenement 1',
@@ -25,23 +25,58 @@ const tab = [
 
 
 const Links = () => {
-  
-  const pathname = usePathname();
-  
-  
+
+    const pathname = usePathname();
+    const [open,setOpen] = useState(false);
+
+    const onClickHandler = ()=>{
+        setOpen(!open);
+    }
+
     return (
-    <div className={Style.container}>
-        {
-            tab.map((item, index) => (
+        <>
+        {/***div container global*/}
+        <div>
+            {/***div container pour les liens desktop */}
+            <div className={Style.containerLinks}>
+                {
+                    tab.map((item, index) => (
+
+                        <Link
+                            className={pathname === item.path ? `${Style.active}` : ''}
+                            key={index} href={item.path}>{item.title}</Link>
+
+                    ))
+                }
+            </div>
+
+        </div>
+        <div>
+            {/***div container pour les liens mobile */}
+            <button style={{backgroundColor:"lightblue"}} onClick={onClickHandler} className={Style.menuMobile}>Menu mobile</button>
+            {                
+                open && (
+                <div className={Style.containerMobileLinks}>
+                {
+                    tab.map((item, index) => (
+
+                        <Link
+                            className={pathname === item.path ? `${Style.active}` : ''}
+                            key={index} href={item.path}>{item.title}</Link>
+
+                    ))
+                }
+            </div>
+
+                )
+            }
             
-            <Link 
-            className={pathname === item.path ? `${Style.active}`:''}
-            key={index} href={item.path}>{item.title}</Link>
-                
-            ))
-        }
-    </div>
-  )
+
+        </div>
+
+        </>
+
+    )
 }
 
 export default Links
