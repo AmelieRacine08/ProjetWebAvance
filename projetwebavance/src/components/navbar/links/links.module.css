@@ -1,10 +1,19 @@
-.container{
-    display: flex;
-    flex-direction: row;
-    color: black;
-    gap: 1rem;
-}
+@media (min-width: 768px) {
+    .container{
+        display: flex;
+        flex-direction: row;
+        color: black;
+        gap: 1rem;
+    }
 
+    .containerMobile {
+        display: none;
+        
+    }
+}
+.link{
+    float: left;
+}
 .active{
     background-color: var(--bgColor);
     border-radius: 20px;
@@ -14,6 +23,17 @@
     align-items: center;
 }
 
-.active:hover {
-    background-color: var(--hoverColor);
+@media (max-width: 768px) {
+    .containerMobile {
+        flex-direction: column; 
+        
+    }
+
+    .container{
+        display: none;
+    }
 }
+
+
+
+
