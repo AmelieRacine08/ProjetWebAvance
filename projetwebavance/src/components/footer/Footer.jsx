@@ -1,8 +1,11 @@
 import React from 'react'
+import Style from './footer.module.css'
 
 const Footer = () => {
   return (
-    <div style={{padding:'1rem', backgroundColor:'grey'}}>Footer de page</div>
+    <div className={Style.footer}>
+
+    </div>
   )
 }
 

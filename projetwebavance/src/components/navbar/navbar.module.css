@@ -1,6 +1,6 @@
 .container{
     padding: 1rem;
-    background-color: var(--textColor);
+    background-color: var(linear-gradient(to bottom, #990000, black));
     color: var(--bgColor);
     display: flex;
     

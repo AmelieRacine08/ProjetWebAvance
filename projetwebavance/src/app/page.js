@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import { Image } from 'next/image'
 import Styles from './home.module.css'
 
 export default function Home() {
@@ -6,12 +6,7 @@ export default function Home() {
     <main>
       <div>
         Page d&apos;acceuil 
-        
-        
-
-       
-
-        </div>
+      </div>
       
     </main>
   )
