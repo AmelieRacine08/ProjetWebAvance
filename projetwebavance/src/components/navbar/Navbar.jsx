@@ -16,6 +16,11 @@ const Navbar = () => {
         
         
       </div>
+      <div className={Style.logo}>LOGO</div>
+      <div className={Style.linksContainer}>
+        <Links />
+      </div>
+    </div>
   )
 }
 

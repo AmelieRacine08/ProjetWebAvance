@@ -25,58 +25,45 @@ const tab = [
 
 
 const Links = () => {
+  
+  const pathname = usePathname();
+  
+  const [open, setOpen] = useState(false);
 
-    const pathname = usePathname();
-    const [open,setOpen] = useState(false);
-
-    const onClickHandler = ()=>{
-        setOpen(!open);
-    }
-
+  const onClickHander = () =>{
+    setOpen(!open);
+  }
     return (
-        <>
-        {/***div container global*/}
-        <div>
-            {/***div container pour les liens desktop */}
-            <div className={Style.containerLinks}>
-                {
-                    tab.map((item, index) => (
-
-                        <Link
-                            className={pathname === item.path ? `${Style.active}` : ''}
-                            key={index} href={item.path}>{item.title}</Link>
-
-                    ))
-                }
-            </div>
-
+      <>
+        {/* Desktop layout */}
+        <div className={Style.container}>
+        {
+          tab.map((item, index) => (
+          <Link 
+          className={ pathname === item.path ? `${Style.active}` : ''}
+          key={index} href={item.path}>{item.title}</Link>
+          ))
+        }
         </div>
-        <div>
-            {/***div container pour les liens mobile */}
-            <button style={{backgroundColor:"lightblue"}} onClick={onClickHandler} className={Style.menuMobile}>Menu mobile</button>
-            {                
-                open && (
-                <div className={Style.containerMobileLinks}>
-                {
-                    tab.map((item, index) => (
-
-                        <Link
-                            className={pathname === item.path ? `${Style.active}` : ''}
-                            key={index} href={item.path}>{item.title}</Link>
-
-                    ))
-                }
-            </div>
-
-                )
-            }
-            
-
+        {/* Mobile layout */}
+        <div className={Style.containerMobile}>
+        <button onClick={onClickHander}>Menu</button>
+        {
+           open && (
+            tab.map((item, index) => (
+              <Link 
+              className={ pathname === item.path ? `${Style.active}` : ''}
+              key={index} href={item.path}>{item.title}</Link>
+              ))
+           )
+          
+        }
         </div>
+        
+      </>
+    
 
-        </>
-
-    )
+  )
 }
 
 export default Links
