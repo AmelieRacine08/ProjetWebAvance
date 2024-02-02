@@ -7,20 +7,13 @@ import Image from 'next/image'
 const Navbar = () => {
   return (
     <div className={Style.container}>
-        
-        <div> 
-          <Image src="/DALL·E LOGO.png" alt="Logo" width={150} height={140}/>          
-          </div>
 
-        <Links/> 
-        
-        
+      <div className={Style.logo}>
+        <Image src="/DALL·E LOGO.png" alt="Logo" width={150} height={140} />
       </div>
-     // <div className={Style.logo}>LOGO</div>
-    //  <div className={Style.linksContainer}>
-      //  <Links />
-     // </div>
-   // </div>
+      <Links />
+
+    </div>    
   )
 }
 
