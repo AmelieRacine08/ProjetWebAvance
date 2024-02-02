@@ -2,18 +2,18 @@
 @tailwind utilities;
 
 :root {
-  --bgColor:	#F8F8FF;
-  --textColor:black;
-  --autre:#990000; 
+  --bgColor: #f8f8ff;
+  --textColor: black;
+  --autre: #990000;
 }
 
 body {
-  background: linear-gradient(to bottom, #990000, black);
-  color:var(--textColor);
+  background: rgb(129, 109, 109);
+  color: var(--textColor);
   background-color: var(--bgColor);
 }
 
-.container{
+.container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;

@@ -1,3 +1,4 @@
-.footer{
-    background-color: var(--textColor);
+.container {
+  padding: 2rem;
+  background-color: rgb(182, 155, 155);
 }
