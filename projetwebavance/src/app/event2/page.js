@@ -1,8 +1,11 @@
 import React from 'react'
+import TemplatePage from '../templatePage/TemplatePage'
 
 const Event2 = () => {
   return (
-    <div>Page evenement 2</div>
+    <>
+    <TemplatePage title="Page d'evenement 2"/>
+    </>
   )
 }
 

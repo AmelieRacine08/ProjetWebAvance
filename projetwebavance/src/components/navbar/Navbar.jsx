@@ -9,7 +9,7 @@ const Navbar = () => {
     <div className={Style.container}>
 
       <div className={Style.logo}>
-        <Image src="/DALL·E LOGO.png" alt="Logo" width={150} height={140} />
+        <Image src="/DALL·E LOGO.png" alt="Logo" width={150} height={140}  />
       </div>
       <Links />
 

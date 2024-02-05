@@ -4,11 +4,11 @@
 :root {
   --bgColor:	#F8F8FF;
   --textColor:black;
-  --autre:#990000; 
+  --autre:#0b87ac; 
 }
-
+/**#990000**/
 body {
-  background: linear-gradient(to bottom, #990000, black);
+  background: linear-gradient(to bottom, #a752a5, rgb(190, 124, 124));
   color:var(--textColor);
   background-color: var(--bgColor);
 }
