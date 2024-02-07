@@ -1,74 +1,65 @@
-.containerLinks{
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    
+.containerLinks {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
 }
 @media (min-width: 768px) {
-    .container{
-        display: flex;
-        flex-direction: row;
-        color: black;
-        gap: 1rem;
-    }
-
-    .containerMobile {
-        display: none;
-        
-    }
-}
-.link{
-    float: left;
-}
-.active{
-    background-color: var(--bgColor);
-    border-radius: 20px;
-    color: var(--textColor);
-    padding: 5px;
+  .container {
     display: flex;
-    align-items: center;
-}
+    flex-direction: row;
+    color: black;
+    gap: 1rem;
+  }
 
-.menuMobile, 
-.containerMobileLinks{
+  .containerMobile {
     display: none;
+  }
+}
+.link {
+  float: left;
+}
+.active {
+  /* background-color: var(--bgColor); */
+  /* border-radius: 20px; */
+  color: var(--textColor);
+  padding: 5px;
+  display: flex;
+  align-items: center;
 }
 
+.menuMobile,
+.containerMobileLinks {
+  display: none;
+}
 
-@media(max-width:768px){
-    .containerLinks{
-        display: none;
-    }
-    .containerMobileLinks{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 1rem;
-        height: calc(100vh - 100px);
-        width: 40%;
-        background-color: var(--textColor);
-        color: var(--bgColor);
-        position: absolute;
-        right: 0;
-        top: 80;
-        
-    }
-    .menuMobile{
-        display: block;
-        cursor: pointer;
-    }
+@media (max-width: 768px) {
+  .containerLinks {
+    display: none;
+  }
+  .containerMobileLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    height: calc(100vh - 100px);
+    width: 40%;
+    background-color: var(--textColor);
+    color: var(--bgColor);
+    position: absolute;
+    right: 0;
+    top: 80;
+  }
+  .menuMobile {
+    display: block;
+    cursor: pointer;
+  }
 }
 @media (max-width: 768px) {
-    .containerMobile {
-        flex-direction: column; 
-        
-    }
+  .containerMobile {
+    flex-direction: column;
+  }
 
-    .container{
-        display: none;
-    }
+  .container {
+    display: none;
+  }
 }
-
-
-
-
