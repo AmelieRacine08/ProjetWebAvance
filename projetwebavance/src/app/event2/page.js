@@ -1,5 +1,5 @@
 import React from 'react'
-import TemplatePage from '../templatePage/TemplatePage'
+import TemplatePage from '../../components/templatePage/TemplatePage'
 
 const Event2 = () => {
   return (

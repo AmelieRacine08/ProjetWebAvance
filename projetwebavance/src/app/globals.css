@@ -4,11 +4,11 @@
 :root {
   --bgColor: #f8f8ff;
   --textColor: black;
-  --autre: #990000;
+  --ColorBase: rgb(182, 155, 155);
 }
-/**#990000**/
+
 body {
-  background: rgb(129, 109, 109);
+  background: var(--ColorBase);
   color: var(--textColor);
   background-color: var(--bgColor);
 }
@@ -19,3 +19,4 @@ body {
   justify-content: space-between;
   height: 100vh;
 }
+

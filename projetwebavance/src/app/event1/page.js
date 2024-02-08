@@ -1,22 +1,21 @@
 import React from 'react'
-import TemplatePage from '../templatePage/TemplatePage'
+import TemplatePage from '../../components/templatePage/TemplatePage'
 
-const tab=[{
-  title:'asdasdasd',
-  description:'asasdasd',
-  image:'asdasd'
-}]
-
-const description = " Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ab incidunt voluptates, quod voluptate, sed temporibus dolorem doloremque tenetur optio quasi non amet corporis. Molestias soluta temporibus atque veniam enim."
+const description = "Rejoignez le Bluesfest 2024 à Ottawa, pour une expérience musicale inoubliable, où les légendes du blues et les étoiles montantes se rencontrent dans la capitale nationale pour célébrer la richesse et la diversité de la musique blues dans une atmosphère vibrante et accueillante."
 
 const Event1 = () => {
   return (    
     <>    
     <TemplatePage 
-    title="Page d'evenement 1"
+    title="Ottawa Bluesfest 2024"
     description={description}
-    src="/"
+    src="/FestivalBlues1.jpg"
+    textButton1= "Plus d'information"
+    textButton2="Contactez nous"
     />
+      
+
+
     </>
   )
 }
