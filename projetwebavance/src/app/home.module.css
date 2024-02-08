@@ -1,5 +1,7 @@
-.containerImage{
-    width: 70%;
-    height: 500px;
-    position: relative;
+.containerLien {
+  display: flex;
+  flex-wrap: wrap; /* Permet aux éléments de s'enrouler sur plusieurs lignes */
+  justify-content: center;
+  gap: 3rem;
+  padding: 2rem;
 }
