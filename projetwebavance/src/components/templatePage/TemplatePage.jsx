@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./templatePage.module.css";
 import Image from "next/image";
-import { ImageComponent } from "../ImageComponent";
+import { ImageComponent } from "../../app/ImageComponent";
 
 const TemplatePage = ({
   title,

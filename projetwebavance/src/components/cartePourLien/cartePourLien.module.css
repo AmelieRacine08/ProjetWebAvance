@@ -1,0 +1,21 @@
+.divName {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+.customImage {
+  border-radius: 10px;
+  height: 350px;
+  width: 400px;
+}
+
+.customImage:hover {
+  opacity: 0.8; /* Réduit l'opacité de l'image au survol */
+}
+
+/* Style pour le focus */
+.customImage:focus {
+  outline: none; /* Supprime la bordure par défaut lors du focus */
+  border: 2px solid #007bff; /* Ajoute une bordure autour de l'image lors du focus */
+}

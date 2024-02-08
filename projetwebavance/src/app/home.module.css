@@ -4,4 +4,6 @@
   justify-content: center;
   gap: 3rem;
   padding: 2rem;
+  text-align: center;
+  /* max-height: 350px; */
 }
