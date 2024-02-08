@@ -1,9 +1,13 @@
+.main {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
 .containerLien {
   display: flex;
   flex-wrap: wrap; /* Permet aux éléments de s'enrouler sur plusieurs lignes */
   justify-content: center;
   gap: 3rem;
-  padding: 2rem;
+  padding: 4rem;
   text-align: center;
   /* max-height: 350px; */
 }
