@@ -45,7 +45,9 @@ const Navbar = () => {
     <div
       className={`${Style.container} ${isScrolled ? Style.scrolled : ""}`}
       style={{
-        backgroundColor: isScrolled ? "#ffffff" : "transparent",
+        backgroundColor: isScrolled
+          ? "rgba(246, 241, 235, 0.97)"
+          : "transparent",
         color: isScrolled ? "#000000" : "#ffffff",
       }}
     >

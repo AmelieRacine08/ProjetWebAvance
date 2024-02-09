@@ -5,7 +5,11 @@ import CartePourLien from "@/components/cartePourLien/cartePourLien";
 export default function Home() {
   return (
     <main className={Styles.main}>
-      <img src="/home1.jpg" alt="home" width="100%" height="750" />
+      <div className={Styles.imageContainer}>
+        <img src="/home1.jpg" alt="home" className={Styles.imageHome} />
+        <span className={Styles.spanHome}>Home of Event</span>
+      </div>
+
       {/* <div>Home Page</div> */}
       <div className={Styles.containerLien}>
         <CartePourLien

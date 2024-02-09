@@ -11,3 +11,23 @@
   text-align: center;
   /* max-height: 350px; */
 }
+
+.imageContainer {
+  position: relative;
+}
+
+.imageHome {
+  width: 100%;
+  height: 750px; /* Adjust height as needed */
+}
+
+.spanHome {
+  color: white;
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 4rem;
+  font-family: "Bahnschrift Condensed", sans-serif;
+}
