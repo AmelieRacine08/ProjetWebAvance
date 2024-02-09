@@ -17,7 +17,7 @@ const Event1 = () => {
 
 
     </>
-  )
-}
+  );
+};
 
-export default Event1
+export default Event1;

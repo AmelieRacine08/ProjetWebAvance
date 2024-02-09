@@ -2,12 +2,17 @@
   display: flex;
   flex-direction: row;
   gap: 1rem;
+  font-size: 2rem;
+}
+.container {
+  font-family: "Bahnschrift Condensed", sans-serif;
+  font-size: 1.5rem;
 }
 @media (min-width: 768px) {
   .container {
     display: flex;
     flex-direction: row;
-    color: black;
+    /* color: black; */
     gap: 1rem;
   }
 
@@ -19,10 +24,6 @@
   float: left;
 }
 .active {
-  /* background-color: var(--bgColor); */
-  /* border-radius: 20px; */
-  color: var(--textColor);
-  padding: 5px;
   display: flex;
   align-items: center;
 }
