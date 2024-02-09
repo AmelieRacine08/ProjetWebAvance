@@ -12,7 +12,6 @@
   .container {
     display: flex;
     flex-direction: row;
-    /* color: black; */
     gap: 1rem;
   }
 
@@ -34,7 +33,7 @@
 }
 
 @media (max-width: 768px) {
-  .containerLinks {
+  /* .containerLinks {
     display: none;
   }
   .containerMobileLinks {
@@ -44,8 +43,7 @@
     gap: 1rem;
     height: calc(100vh - 100px);
     width: 40%;
-    background-color: var(--textColor);
-    color: var(--bgColor);
+    background-color: transparent;
     position: absolute;
     right: 0;
     top: 80;
@@ -54,13 +52,37 @@
     display: block;
     cursor: pointer;
   }
-}
-@media (max-width: 768px) {
+
   .containerMobile {
     flex-direction: column;
   }
 
   .container {
     display: none;
+  } */
+
+  .containerLinks,
+  .container {
+    display: none;
+  }
+
+  /* Styles pour containerLienMobile */
+  .containerLienMobile {
+    display: flex;
+    flex-direction: column; /* Afficher les éléments verticalement */
+    align-items: flex-start; /* Aligner les éléments à gauche */
+    gap: 10px; /* Espacement entre les éléments */
+    padding: 10px; /* Ajouter un peu de marge intérieure */
+  }
+
+  /* Styles pour les liens dans containerLienMobile */
+  .containerLienMobile a {
+    color: #333; /* Couleur du texte des liens */
+    text-decoration: none; /* Enlever le soulignement des liens */
+  }
+
+  /* Style pour le bouton du menu mobile */
+  .menuMobile {
+    cursor: pointer;
   }
 }
