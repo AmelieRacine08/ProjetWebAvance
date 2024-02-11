@@ -4,7 +4,13 @@ import TemplatePage from "../../components/templatePage/TemplatePage";
 const Event2 = () => {
   return (
     <>
-      <TemplatePage title="Page d'evenement 2" />
+      <TemplatePage 
+    title="Ottawa"
+    description="ottawa"
+    src="/FestivalBlues1.jpg"
+    textButton1= "Plus d'information"
+    textButton2="Contactez nous"
+    />
     </>
   );
 };
