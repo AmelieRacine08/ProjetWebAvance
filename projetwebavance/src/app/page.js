@@ -13,7 +13,9 @@ export default function Home() {
           loop
           muted
         />
-        <span className={Styles.spanHome}>Home of Event</span>
+        <span className={Styles.spanHome}>
+          Explorez les festivals les plus captivants
+        </span>
       </div>
 
       <div className={Styles.containerLien}>
