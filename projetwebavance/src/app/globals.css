@@ -7,6 +7,9 @@
   --ColorBase: rgb(182, 155, 155);
 }
 
+html {
+  background-color: rgba(246, 241, 235, 0.97);
+}
 body {
   color: var(--textColor);
   background-color: rgba(246, 241, 235, 0.97);
