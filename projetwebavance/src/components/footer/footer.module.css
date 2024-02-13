@@ -1,5 +1,41 @@
-.container {
-  padding: 3rem;
+.container {  
+  padding: 20px 0;
   color: white;
   background-color: rgb(24, 23, 23);
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.lienContact{
+  color: var(--ColorBase);
+  position: relative;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 1.5px;
+  padding-bottom: 2px;
+  
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+  .container {  
+    padding: 20px 0;
+    color: white;
+    background-color: rgb(24, 23, 23);
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+  .lienContact{
+    color: var(--ColorBase);
+    position: relative;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 1.5px;
+    padding-bottom: 2px;
+    
+  }
 }

@@ -9,12 +9,13 @@ const TemplatePage = ({
     textButton1 = "Read more", 
     textButton2 = "Contact", 
     src = "/home1.jpg", 
-    altImg = "Image music"
+    altImg = "Image music",
+    lienPage
 }) => {
   return (
     <div className={styles.container}>
          <div className={styles.imgContainer}>
-            <ImageComponent srcImg={src} alt={altImg} fill/>
+            <ImageComponent srcImg={src} alt={altImg}/>
         </div>
         <div className={styles.textContainer}>
             <h1 className={styles.title}>{title}</h1>
@@ -23,9 +24,8 @@ const TemplatePage = ({
                {description}
             </p>
             <div className={styles.buttons}>
-                <button className={styles.button}>{textButton1}</button>
+                <a href={lienPage} target='_blank' rel='noopener noreferrer' className={styles.button}>{textButton1}</a>
                 <button className={styles.button}>{textButton2}</button>
-
             </div>
         </div>
     </div>

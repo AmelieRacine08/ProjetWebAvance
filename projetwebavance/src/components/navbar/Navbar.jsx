@@ -51,9 +51,8 @@ const Navbar = () => {
         isVisible ? Style.visible : Style.hidden
       }`}
     >
-      <div className={Style.logo}>
-        {/* <Image src="/DALL·E LOGO.png" alt="Logo" width={150} height={140} /> */}
-        LOGO
+      <div className={Style.logoContenant}>
+        <p className={Style.logo}>FAO</p> 
       </div>
       <Links />
     </div>

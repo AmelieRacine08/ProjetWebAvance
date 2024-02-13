@@ -7,7 +7,7 @@ export default function Home() {
     <main className={Styles.main}>
       <div className={Styles.imageContainer}>
         <img src="/home1.jpg" alt="home" className={Styles.imageHome} />
-        <span className={Styles.spanHome}>Home of Event</span>
+        <span className={Styles.spanHome}>Festival Accro Ottawa</span>
       </div>
 
       {/* <div>Home Page</div> */}
@@ -16,7 +16,7 @@ export default function Home() {
           href="/event1"
           src="/event1.jpg"
           alt="event"
-          name="event 1"
+          name="Ottawa Bluesfest 2024"
         />
         <CartePourLien
           href="/event2"
