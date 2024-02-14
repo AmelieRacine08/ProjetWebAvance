@@ -5,6 +5,7 @@
   --bgColor: #f8f8ff;
   --textColor: black;
   --ColorBase: rgb(182, 155, 155);
+  --hauteur-navbar:100px
 }
 
 body {
