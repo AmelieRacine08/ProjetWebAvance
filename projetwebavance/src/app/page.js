@@ -13,21 +13,21 @@ export default function Home() {
           loop
           muted
         />
-        <span className={Styles.spanHome}>Home of Event</span>
+        <span className={Styles.spanHome}>Festival Accro Ottawa</span>
       </div>
 
       <div className={Styles.containerLien}>
         <CartePourLien
           href="/event1"
-          src="/event1.jpg"
+          src="/ottawafest.jpg"
           alt="event"
-          name="evenement 1"
+          name="Ottawa Bluesfest 2024"
         />
         <CartePourLien
           href="/event2"
-          src="/event2.jpg"
+          src="/jazz.jpg"
           alt="event"
-          name="evenement 2"
+          name="Ottawa Jazz Festival"
         />
       </div>
     </main>

@@ -23,7 +23,7 @@ const Navbar = () => {
         isVisible ? Style.visible : Style.hidden
       }`}
     >
-      <div className={Style.logo}>LOGO</div>
+      <div className={Style.logo}>FAO</div>
       <Links />
     </div>
   );
