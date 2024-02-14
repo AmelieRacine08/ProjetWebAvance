@@ -7,15 +7,15 @@ import Image from "next/image";
 
 const tab = [
   {
-    title: "Page d'acceuil",
+    title: "Acceuil",
     path: "/",
   },
   {
-    title: "Evenement 1",
+    title: "Bluesfest",
     path: "/event1",
   },
   {
-    title: "Evenement 2",
+    title: "Jazz",
     path: "/event2",
   },
   {
