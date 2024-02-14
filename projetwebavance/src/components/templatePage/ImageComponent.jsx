@@ -4,7 +4,7 @@ import Image from 'next/image'
 const ImageComponent = ({ srcImg = "/musicFest.jpg", alt = "music" }) => {
   return (
     <>
-     <Image src ={srcImg} alt={alt} fill />
+     <Image src ={srcImg} alt={alt} fill priority />
     </>
   )
 }

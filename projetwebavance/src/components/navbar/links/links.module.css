@@ -1,27 +1,12 @@
-.containerLinks {
-  display: flex;
-  flex-direction: row;
-  gap: 1rem;
-  font-size: 2rem;
-}
 .container {
   font-family: "Bahnschrift Condensed", sans-serif;
   font-size: 1.5rem;
 }
-@media (min-width: 768px) {
-  .container {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-  }
 
-  .containerMobile {
-    display: none;
-  }
-}
 .link {
   float: left;
 }
+
 .active {
   display: flex;
   align-items: center;
@@ -32,34 +17,20 @@
   display: none;
 }
 
-@media (max-width: 768px) {
-  /* .containerLinks {
-    display: none;
-  }
-  .containerMobileLinks {
+@media (min-width: 768px) {
+
+  .container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
     gap: 1rem;
-    height: calc(100vh - 100px);
-    width: 40%;
-    background-color: transparent;
-    position: absolute;
-    right: 0;
-    top: 80;
-  }
-  .menuMobile {
-    display: block;
-    cursor: pointer;
   }
 
   .containerMobile {
-    flex-direction: column;
-  }
-
-  .container {
     display: none;
-  } */
+  }
+}
+
+@media (max-width: 768px) {
 
   .containerLinks,
   .container {
@@ -69,20 +40,15 @@
   /* Styles pour containerLienMobile */
   .containerLienMobile {
     display: flex;
-    flex-direction: column; /* Afficher les éléments verticalement */
-    align-items: flex-start; /* Aligner les éléments à gauche */
-    gap: 10px; /* Espacement entre les éléments */
-    padding: 10px; /* Ajouter un peu de marge intérieure */
+    flex-direction: column;
+    align-items: flex-start; 
+    gap: 10px;
+    padding: 10px;
   }
 
   /* Styles pour les liens dans containerLienMobile */
   .containerLienMobile a {
-    color: #333; /* Couleur du texte des liens */
-    text-decoration: none; /* Enlever le soulignement des liens */
-  }
-
-  /* Style pour le bouton du menu mobile */
-  .menuMobile {
-    cursor: pointer;
-  }
+    color: #333;
+    text-decoration: none;
+  }  
 }
