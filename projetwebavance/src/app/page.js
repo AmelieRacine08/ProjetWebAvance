@@ -18,15 +18,15 @@ export default function Home() {
       <div className={Styles.containerLien}>
         <CartePourLien
           href="/event1"
-          src="/event1.jpg"
+          src="/ottawafest.jpg"
           alt="event"
           name="Ottawa Bluesfest 2024"
         />
         <CartePourLien
           href="/event2"
-          src="/event2.jpg"
+          src="/jazz.jpg"
           alt="event"
-          name="evenement 2"
+          name="Ottawa Jazz Festival"
         />
       </div>
     </main>

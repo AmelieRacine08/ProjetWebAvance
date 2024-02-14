@@ -25,7 +25,7 @@ const TemplatePage = ({
             </p>
             <div className={styles.buttons}>
                 <a href={lienPage} target='_blank' rel='noopener noreferrer' className={styles.button}>{textButton1}</a>
-                <button className={styles.button}>{textButton2}</button>
+                <a href={"/contact"} className={styles.button}>{textButton2}</a>
             </div>
         </div>
     </div>

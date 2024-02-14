@@ -1,26 +1,73 @@
-.container {  
-  padding: 20px 0;
-  color: white;
-  background-color: rgb(24, 23, 23);
-  text-align: center;
-  font-size: 1.5rem;
-}
+@media only screen and (min-device-width: 1536px) {
 
-.lienContact{
-  color: var(--ColorBase);
-  position: relative;
-  text-decoration: none;
-  background-image: linear-gradient(currentColor, currentColor);
-  background-position: 0 100%;
-  background-repeat: no-repeat;
-  background-size: 100% 1.5px;
-  padding-bottom: 2px;
-  
-}
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
   .container {  
-    padding: 20px 0;
+    padding: 10px 0;    
+    color: white;
+    background-color: rgb(24, 23, 23);
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  .lienContact{
+    color: #7b1f24;
+    position: relative;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 1.5px;
+    padding-bottom: 2px;    
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1536px) {
+
+  .container {  
+    padding: 10px 0;    
+    color: white;
+    background-color: rgb(24, 23, 23);
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  .lienContact{
+    color: #7b1f24;
+    position: relative;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 1.5px;
+    padding-bottom: 2px;    
+  }
+}
+
+@media only screen and (min-device-width: 769px) and (max-device-width: 1023px) {
+
+  .container {  
+    padding: 10px 0;   
+    color: white;
+    background-color: rgb(24, 23, 23);
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  .lienContact{
+    color: #7b1f24;
+    position: relative;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 1.5px;
+    padding-bottom: 2px;    
+  }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
+
+  .container {  
+    padding: 10px 0;    
     color: white;
     background-color: rgb(24, 23, 23);
     text-align: center;
@@ -28,7 +75,28 @@
   }
   
   .lienContact{
-    color: var(--ColorBase);
+    color: #7b1f24;
+    position: relative;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 1.5px;
+    padding-bottom: 2px;    
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+  .container {  
+    padding: 10px 0;    
+    color: white;
+    background-color: rgb(24, 23, 23);
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  
+  .lienContact{
+    color: #7b1f24;
     position: relative;
     text-decoration: none;
     background-image: linear-gradient(currentColor, currentColor);
@@ -36,6 +104,8 @@
     background-repeat: no-repeat;
     background-size: 100% 1.5px;
     padding-bottom: 2px;
+    font-size: 0.9rem;
     
   }
+  
 }

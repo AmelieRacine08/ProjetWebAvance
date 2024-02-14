@@ -15,41 +15,9 @@ const Event1 = () => {
     description={description}
     src="/FestivalBlues1.jpg"
     textButton1= "Plus d'information"
-    textButton2="Contactez nous"
+    textButton2="Contactez-nous"
     lienPage={"https://ottawabluesfest.ca/?gclid=CjwKCAiA_aGuBhACEiwAly57MfcXVBMJlVBl1qW5onyNRqY3SLw9OGClLAlr7hVSrjWxmViQYq_kzRoC0yMQAvD_BwE"}
     />
-    <div className={style.container}>
-      <h2 className={style.titleh2}>Artistes performants</h2>
-    </div>
-    <div className={Styles.divisionCard}> 
-    <Card className={Styles.containerLien}
-    src="/Tyler_Childers3.webp"
-    alt="artiste" 
-    title = "Tyler Childers"
-    description = "Tyler Childers, un artiste qui redéfinit le genre Americana avec sa fusion unique de country, bluegrass et folk. Ses chansons, explorent les joies, les peines et les luttes de la vie quotidienne."
-    textButton="Read more"
-    isProfil
-    lienPage={"https://fr.wikipedia.org/wiki/Tyler_Childers"}
-    />
-    <Card className={Styles.containerLien}
-    src="/Talk.avif"
-    alt="artiste" 
-    title = "Talk"
-    description = {`Découvrez Talk, nouvelle artiste de l'indie rock canadien, dont le single à succès "Run Away to Mars" et l'album "Lord of the Flies & Birds & Bees" avec ses mélodies entraînantes et ses paroles poignantes.`}
-    textButton="Read more"
-    isProfil
-    lienPage={"https://en.wikipedia.org/wiki/Talk_(musician)"}
-    />
-    <Card className={Styles.containerLien}
-    src="/Motley_Crue2.webp"
-    alt="artiste" 
-    title = "Mötley Crue"
-    description = {`Venez voir Mötley Crue, le groupe légendaire du glam metal, qui a marqué les années 80. Leurs morceaux, véritables hymnes comme "Dr. Feelgood" et "Home Sweet Home", incarnent une époque de démesure et de rébellion.`}
-    textButton="Read more"
-    isProfil
-    lienPage={"https://fr.wikipedia.org/wiki/Mötley_Crüe"}
-    />
-    </div>
     </>
   );
 };

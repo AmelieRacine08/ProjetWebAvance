@@ -8,9 +8,7 @@ function Footer() {
       <p>© 2024 Festival Accro Ottawa. Tous droits réservés.</p>
       <p>   
         <a href={"/contact"} className={Styles.lienContact}>Contactez-nous</a>      
-      </p>
-      
-      
+      </p>  
     </footer>
   )
 }
