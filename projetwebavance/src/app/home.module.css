@@ -2,6 +2,10 @@
   margin-left: 2rem;
   margin-right: 2rem;
 } */
+.videoHome {
+  width: 100%;
+  height: 35%;
+}
 .containerLien {
   display: flex;
   flex-wrap: wrap; /* Permet aux éléments de s'enrouler sur plusieurs lignes */
