@@ -15,7 +15,7 @@ const TemplatePage = ({
   return (
     <div className={styles.container}>
          <div className={styles.imgContainer}>
-            <ImageComponent srcImg={src} alt={altImg} fill/>
+            <ImageComponent srcImg={src} alt={altImg}/>
         </div>
         <div className={styles.textContainer}>
             <h1 className={styles.title}>{title}</h1>

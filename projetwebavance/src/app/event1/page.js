@@ -1,10 +1,14 @@
 import React from 'react'
 import TemplatePage from '../../components/templatePage/TemplatePage'
+import Card from '@/components/card/Card';
+import Styles from '../../components/card/card.module.css'
+import style from '../../components/templatePage/templatePage.module.css'
 
 const description = "Le Bluesfest 2024 à Ottawa, qui se déroule du 4 au 14 juillet à LeBreton Flats, propose une programmation captivante avec des artistes comme Tyler Childers et Talk le 12 juillet, et Mötley Crüe le 13 juillet. Cet événement promet d'offrir une expérience musicale diversifiée, reflétant la richesse de la musique blues et au-delà dans un cadre vibrant et accueillant​​​​​​. Il est important de noter que la liste des artistes annoncés n'est pas définitive et pourrait s'enrichir de nouveaux noms au fur et à mesure que le festival approche. Restez à l'écoute pour les mises à jour futures concernant la programmation et les éventuels ajouts d'artistes. Pour les dernières informations et la programmation complète, n'hésitez pas à consulter régulièrement le site officiel du Bluesfest​​."
 
 const Event1 = () => {
-  return (    
+ 
+  return ( 
     <>    
     <TemplatePage 
     title="Ottawa Bluesfest 2024"

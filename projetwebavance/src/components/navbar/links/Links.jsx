@@ -46,6 +46,7 @@ const Links = () => {
           </Link>
         ))}
       </div>
+
       {/* Mobile layout */}
       <div className={Style.containerMobile}>
         <button onClick={onClickHander}>
@@ -56,7 +57,7 @@ const Links = () => {
             height={40}
           />
         </button>
-        <div className={Style.containerLienMobile}>
+        <div className={`${Style.containerLienMobile} ${open ? Style.open : Style.closed}`}> {/* Modification ici */}
           {open &&
             tab.map((item, index) => (
               <Link
