@@ -85,10 +85,11 @@
     position: fixed;
     top: 0;
     z-index: 50;
+    margin: 0;
   }
 
   .logoContenant {
-    height: 10.5vh;
+    height: 13vh;
     width: 17vw;
     display: flex;
     position: relative;

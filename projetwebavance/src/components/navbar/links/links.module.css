@@ -1,3 +1,13 @@
+@media only screen and (min-device-width: 1536px) {
+
+}
+
+
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1536px) {
+
+}
+
 .containerLinks {
   display: flex;
   flex-direction: row;
@@ -8,7 +18,7 @@
   font-family: "Bahnschrift Condensed", sans-serif;
   font-size: 1.5rem;
 }
-@media (min-width: 768px) {
+@media only screen and (min-device-width: 769px) and (max-device-width: 1023px) {
   .container {
     display: flex;
     flex-direction: row;
@@ -32,7 +42,7 @@
   display: none;
 }
 
-@media (max-width: 768px) {
+@media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
   /* .containerLinks {
     display: none;
   }
@@ -84,5 +94,55 @@
   /* Style pour le bouton du menu mobile */
   .menuMobile {
     cursor: pointer;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+  .containerMobile {
+    margin-right: 15px;    
+  }
+ 
+  /*Styles pour containerLienMobile */
+  .containerLienMobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: calc(40vh - 100px);
+    background-color: rgba(246, 241, 235, 0.97);
+    position: absolute;    
+    right: 0;    
+    top: 60px;
+    width:  25%;   
+    gap: 0.5rem;
+    padding-top: 10px;
+  }   
+
+  /* Styles cachés pour containerLienMobile */
+.containerLienMobile.closed {
+  max-height: 0;
+  opacity: 0;
+  visibility: hidden;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out, opacity 0.2s ease-out;
+}
+
+/* Styles visibles pour containerLienMobile */
+.containerLienMobile.open {
+  max-height: 40vh; /* Ajustez selon le besoin */
+  opacity: 1;
+  visibility: visible;
+  transition: max-height 0.3s ease-in, opacity 0.2s ease-in;
+}
+
+  /* Styles pour les liens dans containerLienMobile */
+  .containerLienMobile a {
+    color: #333;
+    text-decoration: none; 
+  }
+
+  .containerLinks,
+  .container {
+    display: none;
   }
 }
