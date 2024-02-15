@@ -49,6 +49,8 @@
     align-self: stretch;    
     width: 100%;
     height: var(--hauteur-navbar);
+    font-family:'Playfair Display', serif;
+    font-size: larger;
     position: fixed;
     top: 0;
     z-index: 50;
@@ -78,6 +80,8 @@
       align-self: stretch;      
       width: 100%;
       height: var(--hauteur-navbar);
+      font-family:'Playfair Display', serif;
+      font-size: larger;
       position: fixed;
       top: 0;
       z-index: 50;     
@@ -103,6 +107,8 @@
     align-items: center;
     margin: 1.4rem 2.5rem ;
     justify-content: space-between;
+    font-family:'Playfair Display', serif;
+    font-size: large;
   }
   
   .logo {
@@ -124,6 +130,9 @@
     align-items: center;
     margin: 1.3rem 2.5rem ;
     justify-content: space-between;
+    font-family:'Playfair Display', serif;
+    font-size: large;
+    
   }
   
   .logo {

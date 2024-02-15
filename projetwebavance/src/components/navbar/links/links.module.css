@@ -9,7 +9,7 @@
   .containerMobile,
   .containerMobileLinks {
     display: none;
-  }  
+  }
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1536px) {
@@ -23,7 +23,7 @@
   .containerMobile,
   .containerMobileLinks {
     display: none;
-  } 
+  }
 }
 
 @media only screen and (min-device-width: 769px) and (max-device-width: 1023px) {
@@ -51,7 +51,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 10px;
+    gap: 2px;
     padding: 10px;
   }
 
@@ -64,26 +64,26 @@
 
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
- 
 
- /* Styles cachés pour containerLienMobile */
- .containerLienMobile.closed {
-  max-height: 0;
-  opacity: 0;
-  visibility: hidden;
-  overflow: hidden;
-  transition: max-height 0.3s ease-out, opacity 0.2s ease-out;
-}
 
-/* Styles visibles pour containerLienMobile */
-.containerLienMobile.open {
-  max-height: 40vh;
-  /* Ajustez selon le besoin */
-  opacity: 1;
-  visibility: visible;
-  transition: max-height 0.3s ease-in, opacity 0.2s ease-in;
-}
- 
+  /* Styles cachés pour containerLienMobile */
+  .containerLienMobile.closed {
+    max-height: 0;
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out, opacity 0.2s ease-out;
+  }
+
+  /* Styles visibles pour containerLienMobile */
+  .containerLienMobile.open {
+    max-height: 40vh;
+    /* Ajustez selon le besoin */
+    opacity: 1;
+    visibility: visible;
+    transition: max-height 0.3s ease-in, opacity 0.2s ease-in;
+  }
+
   .containerLinks,
   .container {
     display: none;
@@ -94,7 +94,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 10px;
+    gap: 1px;
     padding: 10px;
   }
 
