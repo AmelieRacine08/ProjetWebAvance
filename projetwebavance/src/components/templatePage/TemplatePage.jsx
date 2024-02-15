@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./templatePage.module.css";
-import ImageComponent from "./ImageComponent";
+import Image from "next/image";
 
 const TemplatePage = ({
   title = "Festival de musique",
@@ -13,7 +13,13 @@ const TemplatePage = ({
   return (
     <div className={styles.container}>
       <div className={styles.imgContainer}>
-        <ImageComponent srcImg={src} alt={altImg} fill />
+        <Image
+          src={src}
+          alt={altImg}
+          className={styles.image}
+          width={2000}
+          height={2000}
+        />
       </div>
       <div className={styles.textContainer}>
         <h1 className={styles.title}>{title}</h1>
