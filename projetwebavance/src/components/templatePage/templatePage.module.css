@@ -47,7 +47,7 @@
   cursor: pointer;
   border: none;
   border-radius: 5px;
-  background-color: var(--ColorBase);
+  background-color: #7b1f24;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -57,5 +57,5 @@
 }
 
 .button:active {
-  background-color: rgb(162, 135, 135);
+  background-color: var(--ColorBase);
 }
