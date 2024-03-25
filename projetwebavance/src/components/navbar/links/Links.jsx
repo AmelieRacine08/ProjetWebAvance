@@ -11,16 +11,16 @@ const tab = [
     path: "/",
   },
   {
-    title: "Bluesfest",
-    path: "/event1",
-  },
-  {
-    title: "Jazz",
-    path: "/event2",
+    title: "Evenements",
+    path: "/events",
   },
   {
     title: "Contact",
     path: "/contact",
+  },
+  {
+    title: "Admin",
+    path: "/admin",
   },
 ];
 

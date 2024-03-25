@@ -1,0 +1,56 @@
+[
+	{
+		"id": 1,
+		"title": "Concert de jazz en plein air",
+		"description": "Venez profiter d'une soirée de jazz en plein air avec des artistes renommés.",
+		"date": "2024-05-15",
+		"place": "Parc Central",
+		"src": "concert-jazz.jpg",
+		"alt": "Concert de jazz en plein air"
+	},
+	{
+		"id": 2,
+		"title": "Festival de musique électronique",
+		"description": "Un festival de musique électronique avec des DJ internationaux et une ambiance électrisante.",
+		"date": "2024-06-20",
+		"place": "Stade Municipal",
+		"src": "festival-electro.jpg",
+		"alt": "Festival de musique électronique"
+	},
+	{
+		"id": 3,
+		"title": "Concert de rock alternatif",
+		"description": "Un concert de rock alternatif avec des groupes locaux et une énergie débordante.",
+		"date": "2024-07-10",
+		"place": "Salle de concert XYZ",
+		"src": "concert-rock.jpg",
+		"alt": "Concert de rock alternatif"
+	},
+	{
+		"id": 4,
+		"title": "Concert de jazz en plein air",
+		"description": "Venez profiter d'une soirée de jazz en plein air avec des artistes renommés.",
+		"date": "2024-05-15",
+		"place": "Parc Central",
+		"src": "concert-jazz.jpg",
+		"alt": "Concert de jazz en plein air"
+	},
+	{
+		"id": 5,
+		"title": "Festival de musique électronique",
+		"description": "Un festival de musique électronique avec des DJ internationaux et une ambiance électrisante.",
+		"date": "2024-06-20",
+		"place": "Stade Municipal",
+		"src": "festival-electro.jpg",
+		"alt": "Festival de musique électronique"
+	},
+	{
+		"id": 6,
+		"title": "Concert de rock alternatif",
+		"description": "Un concert de rock alternatif avec des groupes locaux et une énergie débordante.",
+		"date": "2024-07-10",
+		"place": "Salle de concert XYZ",
+		"src": "concert-rock.jpg",
+		"alt": "Concert de rock alternatif"
+	}
+]

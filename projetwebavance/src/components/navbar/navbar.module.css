@@ -1,6 +1,7 @@
 @media (min-width: 768px) {
   .container {
-    background-color: rgba(246, 241, 235, 0.97);
+    background-color: var(--bgNavbarFouter);
+    color: var(--text);
     padding: 1rem 10%;
     display: flex;
     align-items: center;
@@ -31,7 +32,7 @@
   font-family: frutiger;
   font-weight: 600;
   background: linear-gradient(to bottom, red, blue);
-  -webkit-text-stroke: 0.7px black;
+  -webkit-text-stroke: 0.7px var(--text);
   -webkit-background-clip: text;
   color: transparent;
 }

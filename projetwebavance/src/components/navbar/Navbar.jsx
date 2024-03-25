@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from "react";
 import Links from "./links/Links";
 import Style from "./navbar.module.css";
+import ToggleTheme from "../toggleTheme/ToggleTheme";
 
 const Navbar = () => {
   const [isVisible, setIsVisible] = useState(true);
@@ -24,7 +25,11 @@ const Navbar = () => {
       }`}
     >
       <div className={Style.logo}>FAO</div>
+      <div style={{display:"flex", gap:"30px", justifyContent:"center"}}>
+      <ToggleTheme/>
       <Links />
+      </div>
+      
     </div>
   );
 };

@@ -2,17 +2,17 @@
 @tailwind utilities;
 
 :root {
-  --bgColor: #f8f8ff;
+  --bgColor: rgba(246, 241, 235, 0.97);
   --textColor: black;
-  --ColorBase: rgb(182, 155, 155);
+  --ColorBase:  rgb(248, 198, 226);
 }
 
 html {
-  background-color: rgba(246, 241, 235, 0.97);
+  background-color:var(--bgColor);
 }
 body {
   color: var(--textColor);
-  background-color: rgba(246, 241, 235, 0.97);
+  background-color: var(--bgColor);
 }
 
 .container {
@@ -21,3 +21,33 @@ body {
   justify-content: space-between;
   height: 100vh;
 }
+
+.toggle{
+  color: var(--textColor)
+}
+
+.dark{
+  --bgColor: rgb(24, 23, 23);
+  --bgSoft: #1f273a;
+  --text: #ddd;
+  --bgNavbarFouter: var(--textColor);
+  --textSoft: #bbbaba;
+  --btn: #8a54f7;
+  --btnOver: #641cf5;
+  --btnOver: #641cf5;
+  --bgCard: #25314d;
+  --textCard: #ddd;
+}
+
+.light{
+  --bgColor: var(--bgColor);
+  --bgSoft: var(--ColorBase);
+  --text: var(--textColor);
+  --bgNavbarFouter: var(--ColorBase);
+  --textSoft: #777777;
+  --btn: #8a54f7;
+  --btnOver: #641cf5;
+  --bgCard: #eddbfc;
+  --textCard: #000;
+}
+
