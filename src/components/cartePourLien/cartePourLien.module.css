@@ -1,0 +1,26 @@
+.divName {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+.customImage {
+  border-radius: 10px;
+  height: 350px;
+  width: 400px;
+}
+
+/* .customImage {
+  transition: opacity 0.3s ease;
+} */
+
+.customImage:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+  transform: scale(1.05);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+/* .imageContainer {
+  transform: scale(1.05);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+} */

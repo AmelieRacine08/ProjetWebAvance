@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind utilities;
+
+:root {
+  --bgColor: #f8f8ff;
+  --textColor: black;
+  --ColorBase: rgb(182, 155, 155);
+}
+
+html {
+  background-color: rgba(246, 241, 235, 0.97);
+}
+body {
+  color: var(--textColor);
+  background-color: rgba(246, 241, 235, 0.97);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
