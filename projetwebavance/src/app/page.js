@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Styles from "./home.module.css";
 import CartePourLien from "@/components/cartePourLien/cartePourLien";
 
